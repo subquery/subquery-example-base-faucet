@@ -9,8 +9,8 @@ runner:
   query:
     name: "@subql/query"
     version: "*"
-description: "This project can be use as a starting point for developing your new Base SubQuery project"
-repository: "https://github.com/subquery/ethereum-subql-starter"
+description: "This project can be use as a starting point for developing your new Base SubQuery project, it indexes all drips from USDC faucet contract"
+repository: "https://github.com/subquery/subquery-example-base-faucet"
 
 schema:
   file: "./schema.graphql"
@@ -25,8 +25,7 @@ network:
   # When developing your project we suggest getting a private API key
   # You can get them from OnFinality for free https://app.onfinality.io
   # https://documentation.onfinality.io/support/the-enhanced-api-service
-  endpoint:
-    ["https://goerli.base.org"]
+  endpoint: ["https://goerli.base.org"]
   # Recommended to provide the HTTP endpoint of a full chain dictionary to speed up processing
   # dictionary: "https://api.subquery.network/sq/subquery/base-goerli-dictionary"
 
