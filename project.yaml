@@ -30,7 +30,7 @@ network:
   # dictionary: "https://api.subquery.network/sq/subquery/base-goerli-dictionary"
 
 dataSources:
-  - kind: ethereum/Runtime # We use ethereum runtime since Base Goerli is a layer-2 that is EVM-compatible
+  - kind: ethereum/Runtime # We use ethereum runtime since Base Goerli is EVM-compatible
     startBlock: 1512049 # The block at which this contract was created
     options:
       # Must be a key of assets
